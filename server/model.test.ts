@@ -18,3 +18,11 @@ test('saved snapshots expose constellation and talent details with their level b
   assert.deepEqual(character.details.talents.map((talent:any)=>talent.level),[10,13,13]);
   assert.ok(character.details.talents.every((talent:any)=>talent.icon && talent.description));
 });
+test('element colors support existing snapshots, newer characters and traveler variants',()=>{
+  const furina=normalize(make(),'741066691','2026-10-29T18:30:00.000Z');
+  assert.equal(translate(furina).character.element,'hydro');
+  const old={...furina,character:{...furina.character,id:10000005,element:undefined},raw:{skillDepotId:507}};
+  assert.equal(translate(old).character.element,'electro');
+  const newer={...furina,character:{...furina.character,id:10000140,element:undefined},raw:{}};
+  assert.equal(translate(newer).character.element,'hydro');
+});

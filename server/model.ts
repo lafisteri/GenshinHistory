@@ -20,6 +20,11 @@ const weapons = new Map(allWeapons.map(w => [w.id, w.name]));
 const weaponsRu = new Map(russianWeapons.map(w => [w.id, w.name]));
 export const slots = ['EQUIP_BRACER','EQUIP_NECKLACE','EQUIP_SHOES','EQUIP_RING','EQUIP_DRESS'] as const;
 const word = (hash: unknown, lang = 'en') => translations[lang]?.[String(hash)];
+const elements:Record<string,string> = {Fire:'pyro',Water:'hydro',Electric:'electro',Wind:'anemo',Ice:'cryo',Rock:'geo',Grass:'dendro',ELEMENT_PYRO:'pyro',ELEMENT_HYDRO:'hydro',ELEMENT_ELECTRO:'electro',ELEMENT_ANEMO:'anemo',ELEMENT_CRYO:'cryo',ELEMENT_GEO:'geo',ELEMENT_DENDRO:'dendro'};
+function characterElement(id:number, depot?:number):string {
+  const info=chars[`${id}-${depot}`] || chars[id];
+  return elements[info?.Element] || elements[characterDb.get(id)?.elementType] || 'unknown';
+}
 const hasStat = (s: any) => s && typeof (s.appendPropId ?? s.mainPropId) === 'string' && typeof s.statValue === 'number';
 export function normalize(avatar: Obj, uid: string, time: string) {
   if (!Number.isInteger(avatar.avatarId) || !Array.isArray(avatar.equipList) || !avatar.propMap || !avatar.fightPropMap) throw Error('Неполные данные персонажа');
@@ -38,7 +43,7 @@ export function normalize(avatar: Obj, uid: string, time: string) {
       weapon = {id:item.itemId, name:weapons.get(item.itemId) || word(flat.nameTextMapHash) || `Item #${item.itemId}`, nameHash:flat.nameTextMapHash, icon:flat.icon, rarity:flat.rankLevel, level:item.weapon.level, ascension:item.weapon.promoteLevel ?? 0, refinement:1 + Number(Object.values(item.weapon.affixMap ?? {})[0] ?? 0), stats:flat.weaponStats};
     } else throw Error('Неизвестный тип предмета');
   }
-  return {version:1, uid, capturedAt:time, character:{id:avatar.avatarId,name,nameHash:info?.NameTextMapHash,icon:info?.SideIconName?.replace('_Side_', '_') || characterDb.get(avatar.avatarId)?.images?.filename_icon, art:characterDb.get(avatar.avatarId)?.images?.filename_gachaSplash, level:Number(avatar.propMap['4001']?.val ?? avatar.propMap['4001']?.ival ?? 0), constellations:avatar.talentIdList?.length ?? 0, skills:avatar.skillLevelMap ?? {}, stats:avatar.fightPropMap}, equipment:{weapon,artifacts}, raw:avatar};
+  return {version:1, uid, capturedAt:time, character:{id:avatar.avatarId,element:characterElement(avatar.avatarId,avatar.skillDepotId),name,nameHash:info?.NameTextMapHash,icon:info?.SideIconName?.replace('_Side_', '_') || characterDb.get(avatar.avatarId)?.images?.filename_icon, art:characterDb.get(avatar.avatarId)?.images?.filename_gachaSplash, level:Number(avatar.propMap['4001']?.val ?? avatar.propMap['4001']?.ival ?? 0), constellations:avatar.talentIdList?.length ?? 0, skills:avatar.skillLevelMap ?? {}, stats:avatar.fightPropMap}, equipment:{weapon,artifacts}, raw:avatar};
 }
 export function equipmentKey(snapshot: ReturnType<typeof normalize>) {
   const w=snapshot.equipment.weapon;
@@ -70,5 +75,5 @@ export function translate(snapshot: any) {
   const c=snapshot.character;
   const eq=snapshot.equipment;
   const translateItem=(item:any) => item && {...item, displayName:(item.slot ? setsRu.get(item.setId)?.[partKey[item.slot]]?.name : weaponsRu.get(item.id)) || word(item.nameHash,'ru') || item.name, displaySet:setsRu.get(item.setId)?.name || word(item.setNameHash,'ru') || item.setName};
-  return {...snapshot, character:{...c,details:characterDetails(snapshot),art:c.art || characterDb.get(c.id)?.images?.filename_gachaSplash,displayName:word(c.nameHash,'ru') || characterRu.get(c.id) || c.name}, equipment:{weapon:translateItem(eq.weapon),artifacts:Object.fromEntries(Object.entries(eq.artifacts).map(([k,v])=>[k,translateItem(v)]))}};
+  return {...snapshot, character:{...c,element:characterElement(c.id,snapshot.raw?.skillDepotId),details:characterDetails(snapshot),art:c.art || characterDb.get(c.id)?.images?.filename_gachaSplash,displayName:word(c.nameHash,'ru') || characterRu.get(c.id) || c.name}, equipment:{weapon:translateItem(eq.weapon),artifacts:Object.fromEntries(Object.entries(eq.artifacts).map(([k,v])=>[k,translateItem(v)]))}};
 }

@@ -32,3 +32,34 @@
 .weapon-meta{margin:0;align-items:start}
 .weapon .stars{margin:0}
 .weapon-stats span{height:32px;display:inline-flex;align-items:center;line-height:1}
+/* Element palettes apply to the whole build, including its equipment panels. */
+.build-card{--element-dark:#0a4285;--element-mid:#11519a;--element-light:#5780ad;--element-art:#285997;--element-glow:#88b6dd;--element-panel:#0b315d9c;--element-chip:#7599cc77;--element-cell:#4a72a43d;background:linear-gradient(135deg,var(--element-dark),var(--element-mid) 46%,var(--element-light))}
+.element-pyro{--element-dark:#753137;--element-mid:#a4493d;--element-light:#c87a55;--element-art:#85403a;--element-glow:#e9a579;--element-panel:#542b2fa8;--element-chip:#e0a08077;--element-cell:#cd8a714d}
+.element-hydro{--element-dark:#0a4285;--element-mid:#11519a;--element-light:#5780ad;--element-art:#285997;--element-glow:#88b6dd}
+.element-electro{--element-dark:#49346f;--element-mid:#6a5192;--element-light:#9b83b4;--element-art:#5b4580;--element-glow:#b9a2d0;--element-panel:#302651a8;--element-chip:#ab99cd77;--element-cell:#a592bc4d}
+.element-anemo{--element-dark:#24635e;--element-mid:#398a7e;--element-light:#78b8a8;--element-art:#34796f;--element-glow:#a4dbca;--element-panel:#1b514ca8;--element-chip:#96cfbd77;--element-cell:#8dcbb94d}
+.element-cryo{--element-dark:#075072;--element-mid:#157998;--element-light:#71b5c4;--element-art:#196d89;--element-glow:#a5dae0;--element-panel:#063e5da8;--element-chip:#9bcfdc77;--element-cell:#8dc7d34d}
+.element-geo{--element-dark:#705324;--element-mid:#987532;--element-light:#c6a667;--element-art:#846b39;--element-glow:#e3c991;--element-panel:#513e20a8;--element-chip:#d7bf8977;--element-cell:#c8af794d}
+.element-dendro{--element-dark:#3b632c;--element-mid:#628a3d;--element-light:#99b87a;--element-art:#547839;--element-glow:#bfd8a1;--element-panel:#304c26a8;--element-chip:#adc89277;--element-cell:#a3c0804d}
+.build-card .character-art{background:radial-gradient(ellipse at center,var(--element-glow),var(--element-art) 70%)}
+.build-card .artifact{background:var(--element-panel)}
+.build-card .weapon-stats span{background:var(--element-chip)}
+.build-card .substat{background:var(--element-cell)}
+/* Enka extends the artwork's edge colors vertically across the build. */
+.build-card{background:linear-gradient(180deg,var(--adaptive-top,var(--enka-color,#84a1c6)) 0%,var(--adaptive-middle,var(--enka-color,#84a1c6)) 50%,var(--adaptive-bottom,var(--enka-color,#84a1c6)) 100%)}
+.element-pyro{--enka-color:#751907}.element-hydro{--enka-color:#84a1c6}.element-electro{--enka-color:#9876ad}.element-anemo{--enka-color:#52b0b1}.element-cryo{--enka-color:#46a8ba}.element-geo{--enka-color:#bb9f4b}.element-dendro{--enka-color:#2d8e34}
+.build-card .artifact{background:rgba(0,0,0,.31)}
+.build-card .substat{background:rgba(255,255,255,.09)}
+.build-card .weapon-stats span{background:rgba(255,255,255,.15)}
+/* Dark, saturated element backgrounds with a soft glow and starry texture. */
+.build-card{position:relative;isolation:isolate;background:linear-gradient(170deg,var(--card-top,#08438d) 0%,var(--card-mid,#1f568f) 55%,var(--card-bottom,#527cae) 100%)}
+.element-electro{--card-top:#31005b;--card-mid:#4a1e6f;--card-bottom:#70488f}
+.element-cryo{--card-top:#005175;--card-mid:#146887;--card-bottom:#29839c}
+.element-hydro{--card-top:#08438d;--card-mid:#265a9b;--card-bottom:#5079ad}
+.element-pyro{--card-top:#651b17;--card-mid:#94352b;--card-bottom:#bb5c42}
+.element-anemo{--card-top:#075a58;--card-mid:#168177;--card-bottom:#54a798}
+.element-geo{--card-top:#62470f;--card-mid:#92702b;--card-bottom:#bba05f}
+.element-dendro{--card-top:#1b541f;--card-mid:#397d32;--card-bottom:#78a858}
+.build-card .character-art{background:transparent}
+.build-card .splash{mask-image:linear-gradient(to right,#000 0%,#000 75%,transparent 100%)}
+.build-card::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.3;background-image:radial-gradient(circle at 12px 17px,rgba(255,255,255,.8) 0 1px,transparent 3px),radial-gradient(circle at 48px 63px,rgba(255,255,255,.6) 0 1px,transparent 3px),radial-gradient(circle at 81px 38px,rgba(255,255,255,.45) 0 1px,transparent 3px);background-size:173px 149px,223px 197px,277px 227px;mask-image:linear-gradient(to right,transparent 10%,#000 45%)}
