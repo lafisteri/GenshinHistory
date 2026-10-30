@@ -1,0 +1,19 @@
+services:
+  genshin-history:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${APP_PORT:-3000}:3000"
+    environment:
+      GIT_SYNC_ENABLED: "true"
+      GIT_SYNC_REMOTE: ${GIT_SYNC_REMOTE:-https://github.com/lafisteri/GenshinHistory.git}
+      GIT_SYNC_BRANCH: ${GIT_SYNC_BRANCH:-main}
+      GIT_SYNC_REPO: /git-sync/repository
+      GIT_AUTHOR_NAME: ${GIT_AUTHOR_NAME:-Genshin History}
+      GIT_AUTHOR_EMAIL: ${GIT_AUTHOR_EMAIL:-genshin-history@localhost}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+    volumes:
+      - ./data:/app/data
+      - git-sync:/git-sync
+volumes:
+  git-sync:
