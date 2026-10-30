@@ -1,0 +1,684 @@
+{
+  "version": 1,
+  "uid": "741066691",
+  "capturedAt": "2026-10-30T11:00:23.307Z",
+  "character": {
+    "id": 10000016,
+    "element": "pyro",
+    "name": "Diluc",
+    "nameHash": 3608180322,
+    "icon": "UI_AvatarIcon_Diluc",
+    "art": "UI_Gacha_AvatarImg_Diluc",
+    "level": 90,
+    "constellations": 5,
+    "skills": {
+      "10160": 9,
+      "10161": 9,
+      "10165": 9
+    },
+    "stats": {
+      "1": 12980.666015625,
+      "2": 4989.1298828125,
+      "3": 0.6003999710083008,
+      "4": 899.6334838867188,
+      "5": 412.15997314453125,
+      "6": 0.7824399471282959,
+      "7": 783.9254760742188,
+      "8": 34.720001220703125,
+      "9": 0.10930000245571136,
+      "20": 0.413100004196167,
+      "21": 0,
+      "22": 1.1919000148773193,
+      "23": 1.3950999975204468,
+      "26": 0,
+      "27": 0,
+      "28": 69.94000244140625,
+      "29": 0,
+      "30": 0,
+      "40": 0.6159999966621399,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "70": 40,
+      "1010": 25763.38671875,
+      "2000": 25763.38671875,
+      "2001": 2015.70263671875,
+      "2002": 904.3284912109375,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "id": 12406,
+      "name": "Prototype Archaic",
+      "nameHash": "3722933411",
+      "icon": "UI_EquipIcon_Claymore_Proto",
+      "rarity": 4,
+      "level": 90,
+      "ascension": 6,
+      "refinement": 5,
+      "stats": [
+        {
+          "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+          "statValue": 565
+        },
+        {
+          "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+          "statValue": 27.6
+        }
+      ]
+    },
+    "artifacts": {
+      "EQUIP_BRACER": {
+        "id": 80543,
+        "name": "Witch's Flower of Blaze",
+        "nameHash": "1149647916",
+        "slot": "EQUIP_BRACER",
+        "setId": 15006,
+        "setName": "Crimson Witch of Flames",
+        "setNameHash": "1524173875",
+        "icon": "UI_RelicIcon_15006_4",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_HP",
+          "statValue": 4780
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 16.8
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 4.1
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 10.5
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 37
+          }
+        ],
+        "rolls": [
+          501232,
+          501061,
+          501034,
+          501054,
+          501232,
+          501032,
+          501053,
+          501234
+        ]
+      },
+      "EQUIP_NECKLACE": {
+        "id": 80524,
+        "name": "Witch's Ever-Burning Plume",
+        "nameHash": "4289007852",
+        "slot": "EQUIP_NECKLACE",
+        "setId": 15006,
+        "setName": "Crimson Witch of Flames",
+        "setNameHash": "1524173875",
+        "icon": "UI_RelicIcon_15006_2",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ATTACK",
+          "statValue": 311
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 35
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+            "statValue": 5.1
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 14.6
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 10.1
+          }
+        ],
+        "rolls": [
+          501242,
+          501091,
+          501033,
+          501201,
+          501032,
+          501241,
+          501032,
+          501204,
+          501203
+        ]
+      },
+      "EQUIP_SHOES": {
+        "id": 80553,
+        "name": "Witch's End Time",
+        "nameHash": "877582508",
+        "slot": "EQUIP_SHOES",
+        "setId": 15006,
+        "setName": "Crimson Witch of Flames",
+        "setNameHash": "1524173875",
+        "icon": "UI_RelicIcon_15006_5",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ATTACK_PERCENT",
+          "statValue": 46.6
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 11.1
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 35
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 11.7
+          }
+        ],
+        "rolls": [
+          501034,
+          501204,
+          501242,
+          501232,
+          501202,
+          501241,
+          501234,
+          501033
+        ]
+      },
+      "EQUIP_RING": {
+        "id": 32513,
+        "name": "Golden Night's Bustle",
+        "nameHash": "3386315228",
+        "slot": "EQUIP_RING",
+        "setId": 15032,
+        "setName": "Golden Troupe",
+        "setNameHash": "3410220315",
+        "icon": "UI_RelicIcon_15032_1",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_FIRE_ADD_HURT",
+          "statValue": 46.6
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 64
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP",
+            "statValue": 209
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 8.2
+          }
+        ],
+        "rolls": [
+          501051,
+          501223,
+          501021,
+          501031,
+          501053,
+          501053,
+          501031,
+          501052
+        ]
+      },
+      "EQUIP_DRESS": {
+        "id": 80533,
+        "name": "Witch's Scorching Hat",
+        "nameHash": "1521030620",
+        "slot": "EQUIP_DRESS",
+        "setId": 15006,
+        "setName": "Crimson Witch of Flames",
+        "setNameHash": "1524173875",
+        "icon": "UI_RelicIcon_15006_3",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_CRITICAL_HURT",
+          "statValue": 62.2
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 11
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 15.7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE",
+            "statValue": 35
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+            "statValue": 5.8
+          }
+        ],
+        "rolls": [
+          501233,
+          501032,
+          501082,
+          501092,
+          501232,
+          501081,
+          501033,
+          501034
+        ]
+      }
+    }
+  },
+  "raw": {
+    "avatarId": 10000016,
+    "propMap": {
+      "1001": {
+        "type": 1001,
+        "ival": "0"
+      },
+      "1002": {
+        "type": 1002,
+        "ival": "6",
+        "val": "6"
+      },
+      "1003": {
+        "type": 1003,
+        "ival": "0"
+      },
+      "1004": {
+        "type": 1004,
+        "ival": "0"
+      },
+      "4001": {
+        "type": 4001,
+        "ival": "90",
+        "val": "90"
+      },
+      "10010": {
+        "type": 10010,
+        "ival": "24000",
+        "val": "24000"
+      },
+      "10049": {
+        "type": 10049,
+        "ival": "12000",
+        "val": "12000"
+      }
+    },
+    "talentIdList": [
+      161,
+      162,
+      163,
+      164,
+      165
+    ],
+    "fightPropMap": {
+      "1": 12980.666015625,
+      "2": 4989.1298828125,
+      "3": 0.6003999710083008,
+      "4": 899.6334838867188,
+      "5": 412.15997314453125,
+      "6": 0.7824399471282959,
+      "7": 783.9254760742188,
+      "8": 34.720001220703125,
+      "9": 0.10930000245571136,
+      "20": 0.413100004196167,
+      "21": 0,
+      "22": 1.1919000148773193,
+      "23": 1.3950999975204468,
+      "26": 0,
+      "27": 0,
+      "28": 69.94000244140625,
+      "29": 0,
+      "30": 0,
+      "40": 0.6159999966621399,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "70": 40,
+      "1010": 25763.38671875,
+      "2000": 25763.38671875,
+      "2001": 2015.70263671875,
+      "2002": 904.3284912109375,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    },
+    "skillDepotId": 1601,
+    "inherentProudSkillList": [
+      162101,
+      162201,
+      162301
+    ],
+    "skillLevelMap": {
+      "10160": 9,
+      "10161": 9,
+      "10165": 9
+    },
+    "proudSkillExtraLevelMap": {
+      "1632": 3,
+      "1639": 3
+    },
+    "equipList": [
+      {
+        "itemId": 80543,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 14001,
+          "appendPropIdList": [
+            501232,
+            501061,
+            501034,
+            501054,
+            501232,
+            501032,
+            501053,
+            501234
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "1149647916",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15006_4",
+          "equipType": "EQUIP_BRACER",
+          "setId": 15006,
+          "setNameTextMapHash": "1524173875",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 16.8
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 4.1
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 10.5
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK",
+              "statValue": 37
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_HP",
+            "statValue": 4780
+          }
+        }
+      },
+      {
+        "itemId": 80524,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 12001,
+          "appendPropIdList": [
+            501242,
+            501091,
+            501033,
+            501201,
+            501032,
+            501241,
+            501032,
+            501204,
+            501203
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "4289007852",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15006_2",
+          "equipType": "EQUIP_NECKLACE",
+          "setId": 15006,
+          "setNameTextMapHash": "1524173875",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 35
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+              "statValue": 5.1
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 14.6
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 10.1
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 311
+          }
+        }
+      },
+      {
+        "itemId": 80553,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 10004,
+          "appendPropIdList": [
+            501034,
+            501204,
+            501242,
+            501232,
+            501202,
+            501241,
+            501234,
+            501033
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "877582508",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15006_5",
+          "equipType": "EQUIP_SHOES",
+          "setId": 15006,
+          "setNameTextMapHash": "1524173875",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 11.1
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 35
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 11.7
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 46.6
+          }
+        }
+      },
+      {
+        "itemId": 32513,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 15008,
+          "appendPropIdList": [
+            501051,
+            501223,
+            501021,
+            501031,
+            501053,
+            501053,
+            501031,
+            501052
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "3386315228",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15032_1",
+          "equipType": "EQUIP_RING",
+          "setId": 15032,
+          "setNameTextMapHash": "3410220315",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK",
+              "statValue": 64
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP",
+              "statValue": 209
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 8.2
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_FIRE_ADD_HURT",
+            "statValue": 46.6
+          }
+        }
+      },
+      {
+        "itemId": 80533,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 13008,
+          "appendPropIdList": [
+            501233,
+            501032,
+            501082,
+            501092,
+            501232,
+            501081,
+            501033,
+            501034
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "1521030620",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15006_3",
+          "equipType": "EQUIP_DRESS",
+          "setId": 15006,
+          "setNameTextMapHash": "1524173875",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 11
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 15.7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE",
+              "statValue": 35
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+              "statValue": 5.8
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 62.2
+          }
+        }
+      },
+      {
+        "itemId": 12406,
+        "weapon": {
+          "level": 90,
+          "promoteLevel": 6,
+          "affixMap": {
+            "112406": 4
+          }
+        },
+        "flat": {
+          "nameTextMapHash": "3722933411",
+          "rankLevel": 4,
+          "itemType": "ITEM_WEAPON",
+          "icon": "UI_EquipIcon_Claymore_Proto",
+          "weaponStats": [
+            {
+              "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+              "statValue": 565
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 27.6
+            }
+          ]
+        }
+      }
+    ],
+    "fetterInfo": {
+      "expLevel": 10
+    }
+  }
+}

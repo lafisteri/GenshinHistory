@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "uid": "741066691",
+  "capturedAt": "2026-10-30T11:00:24.602Z",
+  "character": {
+    "id": 10000024,
+    "element": "electro",
+    "name": "Beidou",
+    "nameHash": 2646367730,
+    "icon": "UI_AvatarIcon_Beidou",
+    "art": "UI_Gacha_AvatarImg_Beidou",
+    "level": 90,
+    "constellations": 6,
+    "skills": {
+      "10241": 2,
+      "10242": 7,
+      "10245": 7
+    },
+    "stats": {
+      "1": 13049.8984375,
+      "4": 679.504150390625,
+      "7": 648.3954467773438,
+      "20": 0.05000000074505806,
+      "21": 0,
+      "22": 0.5,
+      "23": 1.6125317811965942,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0.23999999463558197,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 80,
+      "1001": 80,
+      "1010": 13049.8984375,
+      "2000": 13049.8984375,
+      "2001": 679.504150390625,
+      "2002": 648.3954467773438,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "id": 12401,
+      "name": "Favonius Greatsword",
+      "nameHash": "735056283",
+      "icon": "UI_EquipIcon_Claymore_Zephyrus",
+      "rarity": 4,
+      "level": 90,
+      "ascension": 6,
+      "refinement": 5,
+      "stats": [
+        {
+          "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+          "statValue": 454
+        },
+        {
+          "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "statValue": 61.3
+        }
+      ]
+    },
+    "artifacts": {
+      "EQUIP_BRACER": null,
+      "EQUIP_NECKLACE": null,
+      "EQUIP_SHOES": null,
+      "EQUIP_RING": null,
+      "EQUIP_DRESS": null
+    }
+  },
+  "raw": {
+    "avatarId": 10000024,
+    "propMap": {
+      "1001": {
+        "type": 1001,
+        "ival": "0"
+      },
+      "1002": {
+        "type": 1002,
+        "ival": "6",
+        "val": "6"
+      },
+      "1003": {
+        "type": 1003,
+        "ival": "0"
+      },
+      "1004": {
+        "type": 1004,
+        "ival": "0"
+      },
+      "4001": {
+        "type": 4001,
+        "ival": "90",
+        "val": "90"
+      },
+      "10010": {
+        "type": 10010,
+        "ival": "24000",
+        "val": "24000"
+      },
+      "10049": {
+        "type": 10049,
+        "ival": "12000",
+        "val": "12000"
+      }
+    },
+    "talentIdList": [
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "fightPropMap": {
+      "1": 13049.8984375,
+      "4": 679.504150390625,
+      "7": 648.3954467773438,
+      "20": 0.05000000074505806,
+      "21": 0,
+      "22": 0.5,
+      "23": 1.6125317811965942,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0.23999999463558197,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 80,
+      "1001": 80,
+      "1010": 13049.8984375,
+      "2000": 13049.8984375,
+      "2001": 679.504150390625,
+      "2002": 648.3954467773438,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    },
+    "skillDepotId": 2401,
+    "inherentProudSkillList": [
+      242101,
+      242201,
+      242301
+    ],
+    "skillLevelMap": {
+      "10241": 2,
+      "10242": 7,
+      "10245": 7
+    },
+    "proudSkillExtraLevelMap": {
+      "2432": 3,
+      "2439": 3
+    },
+    "equipList": [
+      {
+        "itemId": 12401,
+        "weapon": {
+          "level": 90,
+          "promoteLevel": 6,
+          "affixMap": {
+            "112401": 4
+          }
+        },
+        "flat": {
+          "nameTextMapHash": "735056283",
+          "rankLevel": 4,
+          "itemType": "ITEM_WEAPON",
+          "icon": "UI_EquipIcon_Claymore_Zephyrus",
+          "weaponStats": [
+            {
+              "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+              "statValue": 454
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 61.3
+            }
+          ]
+        }
+      }
+    ],
+    "fetterInfo": {
+      "expLevel": 10
+    }
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "version": 1,
+  "uid": "741066691",
+  "capturedAt": "2026-10-30T11:00:24.338Z",
+  "character": {
+    "id": 10000065,
+    "element": "electro",
+    "name": "Kuki Shinobu",
+    "nameHash": 1940821986,
+    "icon": "UI_AvatarIcon_Shinobu",
+    "art": "UI_Gacha_AvatarImg_Shinobu",
+    "level": 90,
+    "constellations": 4,
+    "skills": {
+      "10651": 2,
+      "10652": 9,
+      "10655": 6
+    },
+    "stats": {
+      "1": 12288.654296875,
+      "2": 5078.75,
+      "3": 0.5974000096321106,
+      "4": 820.4718627929688,
+      "5": 412.1499938964844,
+      "6": 0.10499999672174454,
+      "7": 750.773681640625,
+      "8": 60.18000030517578,
+      "9": 0.23319999873638153,
+      "20": 0.23659999668598175,
+      "21": 0,
+      "22": 0.9041000008583069,
+      "23": 1.2979999780654907,
+      "24": 0.10000000149011612,
+      "26": 0,
+      "27": 0,
+      "28": 855.870849609375,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 60,
+      "1001": 51.40081024169922,
+      "1010": 16158.2255859375,
+      "2000": 24708.646484375,
+      "2001": 1318.7713623046875,
+      "2002": 986.0340576171875,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "id": 11503,
+      "name": "Freedom-Sworn",
+      "nameHash": "2949448043",
+      "icon": "UI_EquipIcon_Sword_Widsith",
+      "rarity": 5,
+      "level": 90,
+      "ascension": 6,
+      "refinement": 1,
+      "stats": [
+        {
+          "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+          "statValue": 608
+        },
+        {
+          "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+          "statValue": 198
+        }
+      ]
+    },
+    "artifacts": {
+      "EQUIP_BRACER": {
+        "id": 91544,
+        "name": "Flower of Accolades",
+        "nameHash": "481511932",
+        "slot": "EQUIP_BRACER",
+        "setId": 15017,
+        "setName": "Tenacity of the Millelith",
+        "setNameHash": "1337665995",
+        "icon": "UI_RelicIcon_15017_4",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_HP",
+          "statValue": 4780
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 6.6
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 35
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 17.5
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 37
+          }
+        ],
+        "rolls": [
+          501204,
+          501053,
+          501231,
+          501243,
+          501053,
+          501234,
+          501241,
+          501234,
+          501201
+        ]
+      },
+      "EQUIP_NECKLACE": {
+        "id": 32523,
+        "name": "Golden Bird's Shedding",
+        "nameHash": "1556847860",
+        "slot": "EQUIP_NECKLACE",
+        "setId": 15032,
+        "setName": "Golden Troupe",
+        "setNameHash": "3410220315",
+        "icon": "UI_RelicIcon_15032_2",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ATTACK",
+          "statValue": 311
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 7.8
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 5.8
+          },
+          {
+            "appendPropId": "FIGHT_PROP_HP_PERCENT",
+            "statValue": 15.7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 61
+          }
+        ],
+        "rolls": [
+          501224,
+          501233,
+          501032,
+          501243,
+          501033,
+          501242,
+          501034,
+          501243
+        ]
+      },
+      "EQUIP_SHOES": {
+        "id": 91553,
+        "name": "Orichalceous Time-Dial",
+        "nameHash": "3193539068",
+        "slot": "EQUIP_SHOES",
+        "setId": 15017,
+        "setName": "Tenacity of the Millelith",
+        "setNameHash": "1337665995",
+        "icon": "UI_RelicIcon_15017_5",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+          "statValue": 187
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_HP",
+            "statValue": 299
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 66
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 5.3
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 14
+          }
+        ],
+        "rolls": [
+          501024,
+          501052,
+          501063,
+          501224,
+          501054,
+          501222,
+          501052,
+          501052
+        ]
+      },
+      "EQUIP_RING": {
+        "id": 91513,
+        "name": "Noble's Pledging Vessel",
+        "nameHash": "2118496724",
+        "slot": "EQUIP_RING",
+        "setId": 15017,
+        "setName": "Tenacity of the Millelith",
+        "setNameHash": "1337665995",
+        "icon": "UI_RelicIcon_15017_1",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+          "statValue": 187
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 5.4
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE",
+            "statValue": 60
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 6.5
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+            "statValue": 10.9
+          }
+        ],
+        "rolls": [
+          501201,
+          501084,
+          501234,
+          501092,
+          501201,
+          501083,
+          501081,
+          501091
+        ]
+      },
+      "EQUIP_DRESS": {
+        "id": 91533,
+        "name": "General's Ancient Helm",
+        "nameHash": "3587145204",
+        "slot": "EQUIP_DRESS",
+        "setId": 15017,
+        "setName": "Tenacity of the Millelith",
+        "setNameHash": "1337665995",
+        "icon": "UI_RelicIcon_15017_3",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+          "statValue": 187
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 6.6
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 18.7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+            "statValue": 12.4
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 5.3
+          }
+        ],
+        "rolls": [
+          501203,
+          501221,
+          501091,
+          501063,
+          501202,
+          501223,
+          501094,
+          501222
+        ]
+      }
+    }
+  },
+  "raw": {
+    "avatarId": 10000065,
+    "propMap": {
+      "1001": {
+        "type": 1001,
+        "ival": "0"
+      },
+      "1002": {
+        "type": 1002,
+        "ival": "6",
+        "val": "6"
+      },
+      "1003": {
+        "type": 1003,
+        "ival": "0"
+      },
+      "1004": {
+        "type": 1004,
+        "ival": "0"
+      },
+      "4001": {
+        "type": 4001,
+        "ival": "90",
+        "val": "90"
+      },
+      "10010": {
+        "type": 10010,
+        "ival": "24000",
+        "val": "24000"
+      },
+      "10049": {
+        "type": 10049,
+        "ival": "12000",
+        "val": "12000"
+      }
+    },
+    "talentIdList": [
+      651,
+      652,
+      653,
+      654
+    ],
+    "fightPropMap": {
+      "1": 12288.654296875,
+      "2": 5078.75,
+      "3": 0.5974000096321106,
+      "4": 820.4718627929688,
+      "5": 412.1499938964844,
+      "6": 0.10499999672174454,
+      "7": 750.773681640625,
+      "8": 60.18000030517578,
+      "9": 0.23319999873638153,
+      "20": 0.23659999668598175,
+      "21": 0,
+      "22": 0.9041000008583069,
+      "23": 1.2979999780654907,
+      "24": 0.10000000149011612,
+      "26": 0,
+      "27": 0,
+      "28": 855.870849609375,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 60,
+      "1001": 51.40081024169922,
+      "1010": 16158.2255859375,
+      "2000": 24708.646484375,
+      "2001": 1318.7713623046875,
+      "2002": 986.0340576171875,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    },
+    "skillDepotId": 6501,
+    "inherentProudSkillList": [
+      652101,
+      652201,
+      652301
+    ],
+    "skillLevelMap": {
+      "10651": 2,
+      "10652": 9,
+      "10655": 6
+    },
+    "proudSkillExtraLevelMap": {
+      "6532": 3
+    },
+    "equipList": [
+      {
+        "itemId": 91544,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 14001,
+          "appendPropIdList": [
+            501204,
+            501053,
+            501231,
+            501243,
+            501053,
+            501234,
+            501241,
+            501234,
+            501201
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "481511932",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15017_4",
+          "equipType": "EQUIP_BRACER",
+          "setId": 15017,
+          "setNameTextMapHash": "1337665995",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 6.6
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK",
+              "statValue": 35
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 17.5
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 37
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_HP",
+            "statValue": 4780
+          }
+        }
+      },
+      {
+        "itemId": 32523,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 12001,
+          "appendPropIdList": [
+            501224,
+            501233,
+            501032,
+            501243,
+            501033,
+            501242,
+            501034,
+            501243
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "1556847860",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15032_2",
+          "equipType": "EQUIP_NECKLACE",
+          "setId": 15032,
+          "setNameTextMapHash": "3410220315",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 7.8
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 5.8
+            },
+            {
+              "appendPropId": "FIGHT_PROP_HP_PERCENT",
+              "statValue": 15.7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 61
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 311
+          }
+        }
+      },
+      {
+        "itemId": 91553,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 10008,
+          "appendPropIdList": [
+            501024,
+            501052,
+            501063,
+            501224,
+            501054,
+            501222,
+            501052,
+            501052
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "3193539068",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15017_5",
+          "equipType": "EQUIP_SHOES",
+          "setId": 15017,
+          "setNameTextMapHash": "1337665995",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_HP",
+              "statValue": 299
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK",
+              "statValue": 66
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 5.3
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 14
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 187
+          }
+        }
+      },
+      {
+        "itemId": 91513,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 15007,
+          "appendPropIdList": [
+            501201,
+            501084,
+            501234,
+            501092,
+            501201,
+            501083,
+            501081,
+            501091
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "2118496724",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15017_1",
+          "equipType": "EQUIP_RING",
+          "setId": 15017,
+          "setNameTextMapHash": "1337665995",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 5.4
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE",
+              "statValue": 60
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 6.5
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+              "statValue": 10.9
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 187
+          }
+        }
+      },
+      {
+        "itemId": 91533,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 13010,
+          "appendPropIdList": [
+            501203,
+            501221,
+            501091,
+            501063,
+            501202,
+            501223,
+            501094,
+            501222
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "3587145204",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15017_3",
+          "equipType": "EQUIP_DRESS",
+          "setId": 15017,
+          "setNameTextMapHash": "1337665995",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 6.6
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 18.7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+              "statValue": 12.4
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 5.3
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 187
+          }
+        }
+      },
+      {
+        "itemId": 11503,
+        "weapon": {
+          "level": 90,
+          "promoteLevel": 6,
+          "affixMap": {
+            "111503": 0
+          }
+        },
+        "flat": {
+          "nameTextMapHash": "2949448043",
+          "rankLevel": 5,
+          "itemType": "ITEM_WEAPON",
+          "icon": "UI_EquipIcon_Sword_Widsith",
+          "weaponStats": [
+            {
+              "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+              "statValue": 608
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 198
+            }
+          ]
+        }
+      }
+    ],
+    "fetterInfo": {
+      "expLevel": 10
+    }
+  }
+}

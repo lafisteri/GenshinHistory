@@ -1,0 +1,496 @@
+{
+  "version": 1,
+  "uid": "741066691",
+  "capturedAt": "2026-10-30T10:50:50.638Z",
+  "character": {
+    "id": 10000052,
+    "element": "electro",
+    "name": "Raiden Shogun",
+    "nameHash": 3024507506,
+    "icon": "UI_AvatarIcon_Shougun",
+    "art": "UI_Gacha_AvatarImg_Shougun",
+    "level": 90,
+    "constellations": 2,
+    "skills": {
+      "10521": 10,
+      "10522": 10,
+      "10525": 10
+    },
+    "stats": {
+      "1": 12907.1904296875,
+      "2": 4780,
+      "4": 945.316162109375,
+      "5": 311,
+      "6": 0.1573999971151352,
+      "7": 789.305419921875,
+      "8": 64.81999969482422,
+      "9": 0.10199999809265137,
+      "20": 0.2989000082015991,
+      "21": 0,
+      "22": 0.9196000099182129,
+      "23": 2.63457989692688,
+      "26": 0,
+      "27": 0,
+      "28": 62.94000244140625,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0.653831958770752,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 90,
+      "1001": 14.671810150146484,
+      "1010": 17687.19140625,
+      "2000": 17687.19140625,
+      "2001": 1837.7634292694856,
+      "2002": 934.6345825195312,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "id": 13509,
+      "name": "Engulfing Lightning",
+      "nameHash": "3717849275",
+      "icon": "UI_EquipIcon_Pole_Narukami",
+      "rarity": 5,
+      "level": 90,
+      "ascension": 6,
+      "refinement": 1,
+      "stats": [
+        {
+          "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+          "statValue": 608
+        },
+        {
+          "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "statValue": 55.1
+        }
+      ]
+    },
+    "artifacts": {
+      "EQUIP_BRACER": {
+        "id": 94544,
+        "name": "Magnificent Tsuba",
+        "nameHash": "600966268",
+        "slot": "EQUIP_BRACER",
+        "setId": 15020,
+        "setName": "Emblem of Severed Fate",
+        "setNameHash": "2276480251",
+        "icon": "UI_RelicIcon_15020_4",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_HP",
+          "statValue": 4780
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 63
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 4.7
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 13.2
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 10.5
+          }
+        ],
+        "rolls": [
+          501244,
+          501062,
+          501221,
+          501204,
+          501201,
+          501224,
+          501243,
+          501204,
+          501242
+        ]
+      },
+      "EQUIP_NECKLACE": {
+        "id": 94523,
+        "name": "Sundered Feather",
+        "nameHash": "2543687028",
+        "slot": "EQUIP_NECKLACE",
+        "setId": 15020,
+        "setName": "Emblem of Severed Fate",
+        "setNameHash": "2276480251",
+        "icon": "UI_RelicIcon_15020_2",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ATTACK",
+          "statValue": 311
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 13.2
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+            "statValue": 10.2
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 4.5
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 10.5
+          }
+        ],
+        "rolls": [
+          501224,
+          501091,
+          501231,
+          501204,
+          501201,
+          501204,
+          501091,
+          501221
+        ]
+      },
+      "EQUIP_SHOES": {
+        "id": 94553,
+        "name": "Storm Cage",
+        "nameHash": "2883400780",
+        "slot": "EQUIP_SHOES",
+        "setId": 15020,
+        "setName": "Emblem of Severed Fate",
+        "setNameHash": "2276480251",
+        "icon": "UI_RelicIcon_15020_5",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "statValue": 51.8
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 3.9
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE",
+            "statValue": 65
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+            "statValue": 15.5
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+            "statValue": 11.1
+          }
+        ],
+        "rolls": [
+          501204,
+          501084,
+          501224,
+          501064,
+          501082,
+          501063,
+          501224,
+          501084
+        ]
+      },
+      "EQUIP_RING": null,
+      "EQUIP_DRESS": null
+    }
+  },
+  "raw": {
+    "avatarId": 10000052,
+    "propMap": {
+      "1001": {
+        "type": 1001,
+        "ival": "0"
+      },
+      "1002": {
+        "type": 1002,
+        "ival": "6",
+        "val": "6"
+      },
+      "1003": {
+        "type": 1003,
+        "ival": "0"
+      },
+      "1004": {
+        "type": 1004,
+        "ival": "0"
+      },
+      "4001": {
+        "type": 4001,
+        "ival": "90",
+        "val": "90"
+      },
+      "10010": {
+        "type": 10010,
+        "ival": "24000",
+        "val": "24000"
+      },
+      "10049": {
+        "type": 10049,
+        "ival": "12000",
+        "val": "12000"
+      }
+    },
+    "talentIdList": [
+      521,
+      522
+    ],
+    "fightPropMap": {
+      "1": 12907.1904296875,
+      "2": 4780,
+      "4": 945.316162109375,
+      "5": 311,
+      "6": 0.1573999971151352,
+      "7": 789.305419921875,
+      "8": 64.81999969482422,
+      "9": 0.10199999809265137,
+      "20": 0.2989000082015991,
+      "21": 0,
+      "22": 0.9196000099182129,
+      "23": 2.63457989692688,
+      "26": 0,
+      "27": 0,
+      "28": 62.94000244140625,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0.653831958770752,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "71": 90,
+      "1001": 14.671810150146484,
+      "1010": 17687.19140625,
+      "2000": 17687.19140625,
+      "2001": 1837.7634292694856,
+      "2002": 934.6345825195312,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    },
+    "skillDepotId": 5201,
+    "inherentProudSkillList": [
+      522101,
+      522201,
+      522301,
+      522501
+    ],
+    "skillLevelMap": {
+      "10521": 10,
+      "10522": 10,
+      "10525": 10
+    },
+    "equipList": [
+      {
+        "itemId": 94544,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 14001,
+          "appendPropIdList": [
+            501244,
+            501062,
+            501221,
+            501204,
+            501201,
+            501224,
+            501243,
+            501204,
+            501242
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "600966268",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15020_4",
+          "equipType": "EQUIP_BRACER",
+          "setId": 15020,
+          "setNameTextMapHash": "2276480251",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 63
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 4.7
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 13.2
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 10.5
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_HP",
+            "statValue": 4780
+          }
+        }
+      },
+      {
+        "itemId": 94523,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 12001,
+          "appendPropIdList": [
+            501224,
+            501091,
+            501231,
+            501204,
+            501201,
+            501204,
+            501091,
+            501221
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "2543687028",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15020_2",
+          "equipType": "EQUIP_NECKLACE",
+          "setId": 15020,
+          "setNameTextMapHash": "2276480251",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 13.2
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE_PERCENT",
+              "statValue": 10.2
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 4.5
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 10.5
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 311
+          }
+        }
+      },
+      {
+        "itemId": 94553,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 10007,
+          "appendPropIdList": [
+            501204,
+            501084,
+            501224,
+            501064,
+            501082,
+            501063,
+            501224,
+            501084
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "2883400780",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15020_5",
+          "equipType": "EQUIP_SHOES",
+          "setId": 15020,
+          "setNameTextMapHash": "2276480251",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 3.9
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE",
+              "statValue": 65
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL_HURT",
+              "statValue": 15.5
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 11.1
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 51.8
+          }
+        }
+      },
+      {
+        "itemId": 13509,
+        "weapon": {
+          "level": 90,
+          "promoteLevel": 6,
+          "affixMap": {
+            "113509": 0
+          }
+        },
+        "flat": {
+          "nameTextMapHash": "3717849275",
+          "rankLevel": 5,
+          "itemType": "ITEM_WEAPON",
+          "icon": "UI_EquipIcon_Pole_Narukami",
+          "weaponStats": [
+            {
+              "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+              "statValue": 608
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 55.1
+            }
+          ]
+        }
+      }
+    ],
+    "fetterInfo": {
+      "expLevel": 10
+    }
+  }
+}

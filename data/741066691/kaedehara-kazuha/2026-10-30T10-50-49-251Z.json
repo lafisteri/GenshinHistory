@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "uid": "741066691",
+  "capturedAt": "2026-10-30T10:50:49.251Z",
+  "character": {
+    "id": 10000047,
+    "element": "anemo",
+    "name": "Kaedehara Kazuha",
+    "nameHash": 88505754,
+    "icon": "UI_AvatarIcon_Kazuha",
+    "art": "UI_Gacha_AvatarImg_Kazuha",
+    "level": 90,
+    "constellations": 2,
+    "skills": {
+      "10471": 9,
+      "10472": 9,
+      "10475": 9
+    },
+    "stats": {
+      "1": 13348.04296875,
+      "2": 5048.8798828125,
+      "4": 806.1871337890625,
+      "5": 328.510009765625,
+      "6": 0.41346001625061035,
+      "7": 806.9820556640625,
+      "8": 23.149999618530273,
+      "20": 0.21329998970031738,
+      "21": 0,
+      "22": 0.5,
+      "23": 1.103600025177002,
+      "26": 0,
+      "27": 0,
+      "28": 243.4099884033203,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0.15000000596046448,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "74": 60,
+      "1004": 57.554630279541016,
+      "1010": 18396.921875,
+      "2000": 18396.921875,
+      "2001": 1468.0233154296875,
+      "2002": 830.132080078125,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "id": 11405,
+      "name": "Lion's Roar",
+      "nameHash": "1321135155",
+      "icon": "UI_EquipIcon_Sword_Rockkiller",
+      "rarity": 4,
+      "level": 90,
+      "ascension": 6,
+      "refinement": 5,
+      "stats": [
+        {
+          "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+          "statValue": 510
+        },
+        {
+          "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+          "statValue": 41.3
+        }
+      ]
+    },
+    "artifacts": {
+      "EQUIP_BRACER": {
+        "id": 76543,
+        "name": "In Remembrance of Viridescent Fields",
+        "nameHash": "49554644",
+        "slot": "EQUIP_BRACER",
+        "setId": 15002,
+        "setName": "Viridescent Venerer",
+        "setNameHash": "1562600667",
+        "icon": "UI_RelicIcon_15002_4",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_HP",
+          "statValue": 4780
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 68
+          },
+          {
+            "appendPropId": "FIGHT_PROP_DEFENSE",
+            "statValue": 23
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 10.1
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 18
+          }
+        ],
+        "rolls": [
+          501244,
+          501084,
+          501202,
+          501053,
+          501243,
+          501204,
+          501244,
+          501202
+        ]
+      },
+      "EQUIP_NECKLACE": {
+        "id": 76523,
+        "name": "Viridescent Arrow Feather",
+        "nameHash": "2718259604",
+        "slot": "EQUIP_NECKLACE",
+        "setId": 15002,
+        "setName": "Viridescent Venerer",
+        "setNameHash": "1562600667",
+        "icon": "UI_RelicIcon_15002_2",
+        "rarity": 5,
+        "level": 20,
+        "main": {
+          "mainPropId": "FIGHT_PROP_ATTACK",
+          "statValue": 311
+        },
+        "substats": [
+          {
+            "appendPropId": "FIGHT_PROP_HP",
+            "statValue": 269
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+            "statValue": 10.4
+          },
+          {
+            "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+            "statValue": 61
+          },
+          {
+            "appendPropId": "FIGHT_PROP_CRITICAL",
+            "statValue": 6.2
+          }
+        ],
+        "rolls": [
+          501023,
+          501231,
+          501241,
+          501202,
+          501202,
+          501243,
+          501233,
+          501244
+        ]
+      },
+      "EQUIP_SHOES": null,
+      "EQUIP_RING": null,
+      "EQUIP_DRESS": null
+    }
+  },
+  "raw": {
+    "avatarId": 10000047,
+    "propMap": {
+      "1001": {
+        "type": 1001,
+        "ival": "0"
+      },
+      "1002": {
+        "type": 1002,
+        "ival": "6",
+        "val": "6"
+      },
+      "1003": {
+        "type": 1003,
+        "ival": "0"
+      },
+      "1004": {
+        "type": 1004,
+        "ival": "0"
+      },
+      "4001": {
+        "type": 4001,
+        "ival": "90",
+        "val": "90"
+      },
+      "10010": {
+        "type": 10010,
+        "ival": "24000",
+        "val": "24000"
+      },
+      "10049": {
+        "type": 10049,
+        "ival": "12000",
+        "val": "12000"
+      }
+    },
+    "talentIdList": [
+      471,
+      472
+    ],
+    "fightPropMap": {
+      "1": 13348.04296875,
+      "2": 5048.8798828125,
+      "4": 806.1871337890625,
+      "5": 328.510009765625,
+      "6": 0.41346001625061035,
+      "7": 806.9820556640625,
+      "8": 23.149999618530273,
+      "20": 0.21329998970031738,
+      "21": 0,
+      "22": 0.5,
+      "23": 1.103600025177002,
+      "26": 0,
+      "27": 0,
+      "28": 243.4099884033203,
+      "29": 0,
+      "30": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0.15000000596046448,
+      "45": 0,
+      "46": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "74": 60,
+      "1004": 57.554630279541016,
+      "1010": 18396.921875,
+      "2000": 18396.921875,
+      "2001": 1468.0233154296875,
+      "2002": 830.132080078125,
+      "2003": 0,
+      "2004": 0,
+      "2020": 0,
+      "3045": 0,
+      "3046": 1
+    },
+    "skillDepotId": 4701,
+    "inherentProudSkillList": [
+      472101,
+      472201,
+      472301
+    ],
+    "skillLevelMap": {
+      "10471": 9,
+      "10472": 9,
+      "10475": 9
+    },
+    "equipList": [
+      {
+        "itemId": 76543,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 14001,
+          "appendPropIdList": [
+            501244,
+            501084,
+            501202,
+            501053,
+            501243,
+            501204,
+            501244,
+            501202
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "49554644",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15002_4",
+          "equipType": "EQUIP_BRACER",
+          "setId": 15002,
+          "setNameTextMapHash": "1562600667",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 68
+            },
+            {
+              "appendPropId": "FIGHT_PROP_DEFENSE",
+              "statValue": 23
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 10.1
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK",
+              "statValue": 18
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_HP",
+            "statValue": 4780
+          }
+        }
+      },
+      {
+        "itemId": 76523,
+        "reliquary": {
+          "level": 21,
+          "mainPropId": 12001,
+          "appendPropIdList": [
+            501023,
+            501231,
+            501241,
+            501202,
+            501202,
+            501243,
+            501233,
+            501244
+          ]
+        },
+        "flat": {
+          "nameTextMapHash": "2718259604",
+          "rankLevel": 5,
+          "itemType": "ITEM_RELIQUARY",
+          "icon": "UI_RelicIcon_15002_2",
+          "equipType": "EQUIP_NECKLACE",
+          "setId": 15002,
+          "setNameTextMapHash": "1562600667",
+          "reliquarySubstats": [
+            {
+              "appendPropId": "FIGHT_PROP_HP",
+              "statValue": 269
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CHARGE_EFFICIENCY",
+              "statValue": 10.4
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ELEMENT_MASTERY",
+              "statValue": 61
+            },
+            {
+              "appendPropId": "FIGHT_PROP_CRITICAL",
+              "statValue": 6.2
+            }
+          ],
+          "reliquaryMainstat": {
+            "mainPropId": "FIGHT_PROP_ATTACK",
+            "statValue": 311
+          }
+        }
+      },
+      {
+        "itemId": 11405,
+        "weapon": {
+          "level": 90,
+          "promoteLevel": 6,
+          "affixMap": {
+            "111405": 4
+          }
+        },
+        "flat": {
+          "nameTextMapHash": "1321135155",
+          "rankLevel": 4,
+          "itemType": "ITEM_WEAPON",
+          "icon": "UI_EquipIcon_Sword_Rockkiller",
+          "weaponStats": [
+            {
+              "appendPropId": "FIGHT_PROP_BASE_ATTACK",
+              "statValue": 510
+            },
+            {
+              "appendPropId": "FIGHT_PROP_ATTACK_PERCENT",
+              "statValue": 41.3
+            }
+          ]
+        }
+      }
+    ],
+    "fetterInfo": {
+      "expLevel": 10
+    }
+  }
+}
